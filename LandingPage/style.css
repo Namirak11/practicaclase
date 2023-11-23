@@ -4,7 +4,7 @@
 }
 
 .fondo{
-    background: url(img/bg.jpg) no-repeat 50% 50%; /* P*/
+    background: url(img/bg.jpg) no-repeat 50% 50%;
     height: 100vh;
     background-size: cover;
 }
