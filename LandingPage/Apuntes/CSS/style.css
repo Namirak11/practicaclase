@@ -1,0 +1,57 @@
+/* Comentario */
+p{
+    color: red; /* color para cambiar el color de la letra*/
+}
+
+body{
+    background-color: white; /* background-color para cambiar el color de fondo*/
+}
+.cambioColor{ /* .algo para crear un estilo propio*/
+    color: green;
+}
+
+#titulo{ /* #algo para cambiar el estilo de un id específico*/
+    color: violet;
+}
+
+.div1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 30px;
+    font-size: 1em; /* Otra unidad de tamaño */
+    font-size: 1vw; /* Otra unidad de tamaño que aumenta y disminuye según el tamaño de la ventana*/
+    border-style: solid;
+    border-style: double;
+    text-align: center;
+}
+
+*{
+   margin: 0; /* Margen externo */
+   padding: 0; /* Margen interno */
+}
+
+@font-face { /* Para importar una fuente de letra*/
+    font-family: 'Roboto';
+    src: url("tip/Roboto/Roboto-Regular.ttf");
+}
+
+.div2{
+    border: solid 2px black;
+    font-family: 'Roboto';
+    background-color: aqua;
+    text-align: center;
+    font-size: 100px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding: 5%; /* Cumple la función de los 4 anteriores con un solo valor*/
+    padding: 2% 5% 2% 5%; /* Cumple la función de los 4 anteriores con valores específicos*/
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: center;
+    height: auto;
+}
+

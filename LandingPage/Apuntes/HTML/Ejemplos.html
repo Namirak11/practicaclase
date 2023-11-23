@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form> <!-- Etiqueta que embarca todo el formulario -->
+        <label for="">Nombre:</label> <!-- Etiqueta que le da el nombre a lo que quieres preguntar -->
+        <input type="text"/><br><br> <!-- Etiqueta que deja espacio para que el usuario introduzca el dato o respuesta (NO TIENE ETIQUETA DE CIERRE)--> <!-- Atributo type="text" para que se introduzca texto -->
+        
+        <label for="">Número:</label>
+        <input type="number"/><br><br> <!-- Atributo type="number" para que se introduzcan números -->
+        
+        <label for="mail">Correo electrónico:</label> <!-- Atributo for="" para poner el nombre del id para que sepa qué input le corresponde -->
+        <input type="email" id="mail"/><br><br> <!-- Atributo type="email" para que se introduzca un email --> <!-- Atributo id="" para darle un nombre al input-->
+
+        <label for="Mensaje">Mensaje:</label>
+        <textarea id="Mensaje">OK Gracias</textarea><br><br> <!-- Etiqueta para hacer un área de texto para el input que puede expandirse si lo desea el usuario. Se le puede poner un mensaje por defecto -->
+
+
+        <button type="submit">Enviar</button> <!-- Etiqueta que sirve como un botón (Suele ser para enviar el formulario) que puede ser de diferentes tipos --> <!-- Atributo para enviar los datos del formulario -->
+    </form>  
+</body>
+</html>

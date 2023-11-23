@@ -1,0 +1,257 @@
+<!DOCTYPE html> <!-- Indica al navegador que la web sigue los estándares y debe ser renderizada como tal. Se pone al principio del documento html y no se cierra -->
+<html lang="en"> <!-- Etiqueta que engloba el resto del documento (Lo de la derecha es un atributo que indica que mis etiquetas son en inglés)-->
+<head> <!-- Etiqueta con información para el navegador, diferente del contenido (Título de la página, hoja de estilos, codificado, etc...) -->
+    <meta charset="UTF-8"> <!-- Esto Indica la codificación de la página-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Web Responsive -->
+    <title>Apuntes y Ejemplos de HTML</title> <!-- Título de la página -->
+</head>
+<body>
+    <!-- Contenido (Texto, imágenes, etc...) -->
+    <p>¡Hola Mundo!</p><br> <!-- Marca un párrafo --> <!-- br: salto de línea-->
+
+    <h1>HOLA MUNDO</h1> <!-- Marca un encabezado de primer nivel. ¡SOLO PUEDE HABER UNO POR PÁGINA! -->
+    <h2>HOLA MUNDO</h2> <!-- Marca un encabezado de segundo nivel. --> 
+    <h3>HOLA MUNDO</h3> <!-- Marca un encabezado de tercer nivel. -->
+    <h4>HOLA MUNDO</h4> <!-- Marca un encabezado de cuarto nivel. -->
+    <h5>HOLA MUNDO</h5> <!-- Marca un encabezado de quinto nivel. -->
+    <h6>HOLA MUNDO</h6> <!-- Marca un encabezado de sexto nivel. -->
+
+    <img src="img/585e4d1ccb11b227491c339b.png"><br> <!-- Sirve para añadir una imagen desde una carpeta específica -->
+
+    <em>HOLA MUNDO</em><br> <!-- Muestra el texto en cursiva -->
+    
+    <strong>HOLA MUNDO</strong><br> <!-- Muestra el texto en negrita -->
+
+    <a href="https://www.uax.com/?_ga=2.241983234.1054769208.1695638488-982280735.1693073833" target="_blank"> UAX.es</a> <!-- Crea un hipervínculo con el texto o imagen que proporcionemos -->
+    <a href="https://www.uax.com/?_ga=2.241983234.1054769208.1695638488-982280735.1693073833" target="_blank"><img src="img/logo.svg"></a> <!-- Ejemplo hipervínculo con imagen -->
+
+    <!-- Listas -->
+    <!-- Listas Ordenadas -> <ol>
+         Listas desordenadas / no ordenadas -> ul> 
+         Listas de definiciones 
+    -->
+
+    <!-- Listas Ordenadas (Números) <ol> -->  
+    <ol>
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+    </ol><br>
+
+    <!-- Listas desordenadas (Puntos) -->
+    <ul> 
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+    </ul><br>
+
+    <!-- Listas de definición -->
+    <dl>
+        <dt>SGML</dt>
+        <dd>Metalenguaje para la definición...</dd>
+        <dt>SGML</dt>
+        <dd>Metalenguaje para la definición...</dd>
+        <dt>SGML</dt>
+        <dd>Metalenguaje para la definición...</dd>
+    </dl><br>
+
+    <!-- Listas Anidadas (Con subelementos) -->
+    <ul>
+        <li>Elemento 1
+            <ul>
+                <li>Subelemento 1</li>
+            </ul>
+        </li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+    </ul><br>
+
+    <!-- Lista Ordenada con elementos en reverso (atributo reversed)-->
+    <ol reversed>
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+    </ol><br>
+
+    <!-- Lista Ordenada que empieza por un número específico -->
+    <ol start="5">
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+    </ol><br>
+
+    <!-- Lista Ejemplo con las dos anteriores -->
+    <ol start="5" reversed>
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+    </ol><br>
+
+    <!-- Tipos de estilo en listas ordenadas -->
+
+    <!-- Letras en mayúscula -->
+    <ol type="A">
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+    </ol><br>
+
+    <!-- Letras en minúscula -->
+    <ol type="a">
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+    </ol><br>
+
+    <!-- Números Romanos en mayúscula -->
+    <ol type="I">
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+    </ol><br>
+
+    <!-- Números Romanos en minúscula -->
+    <ol type="i">
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+    </ol><br>
+    
+    <!-- Tablas -->
+    <table>
+        <tr> <!-- Fila -->
+            <td>Lunes</td>
+            <td>Martes</td>
+            <td>Miércoles</td>
+            <td>Jueves</td>
+            <td>Viernes</td>
+            <td>Sábado</td>
+            <td>Domingo</td>
+        </tr>
+        <tr> <!-- Fila con negrita como un header o de encabezado -->
+            <th>Lunes</th>
+            <th>Martes</th>
+            <th>Miércoles</th>
+            <th>Jueves</th>
+            <th>Viernes</th>
+            <th>Sábado</th>
+            <th>Domingo</th>
+        </tr>
+    </table><br>
+
+    <table border="1"> <!-- Border es un atributo que le pone bordes a la lista --> 
+        <caption>Esto es una tabla</caption> <!-- Esto sería como el título de una tabla-->
+        <tr> <!-- Fila -->
+            <th>Dato 1</th>
+            <th>Dato 2</th>
+            <th>Dato 2</th>
+        </tr>
+        <tr> <!-- Fila -->
+            <td>Dato 1</td>
+            <td>Dato 2</td>
+            <td>Dato 2</td>
+        </tr>
+    </table><br>
+
+    <!-- Tabla 2x2 combinando columnas -->
+    <table border="1">
+        <caption>Tabla 2x2 combinando columnas</caption>
+        <tr>
+            <td colspan="2">Celdas A1 y B1 están unidas</td> <!-- El atributo colspan sirve para combinar un número determinado de columnas -->
+        </tr>
+        <tr>
+            <td>Celda A2</td>
+            <td>Celda B2</td>
+        </tr>
+    </table><br>
+
+    <!-- Tabla 2x2 combinando filas -->
+    <table border="1">
+        <caption>Tabla 2x2 combinando filas</caption> <!-- El atributo rowspan sirve para combinar un número determinado de filas -->
+        <tr>
+            <td rowspan="2">Celdas A1 y A2 están unidas</td>
+            <td>Celda B1</td>
+        </tr>
+        <tr>
+            <td>Celda B2</td>
+        </tr>
+    </table><br> 
+
+    
+    <!-- Formularios -->
+    
+    <form> <!-- Etiqueta que embarca todo el formulario -->
+        <fieldset> <!-- engloba a todo el formulario como una caja -->
+
+            <legend>Formulario de Registro</legend> <!-- Título del formulario -->
+
+            <label for="">Nombre:</label> <!-- Etiqueta que le da el nombre a lo que quieres preguntar -->
+            <input type="text"/><br><br> <!-- Etiqueta que deja espacio para que el usuario introduzca el dato o respuesta (NO TIENE ETIQUETA DE CIERRE)--> <!-- Atributo type="text" para que se introduzca texto -->
+        
+            <label for="">Número:</label>
+            <input type="number"/><br><br> <!-- Atributo type="number" para que se introduzcan números -->
+        
+            <label for="mail">Correo electrónico:</label> <!-- Atributo for="" para poner el nombre del id para que sepa qué input le corresponde -->
+            <input type="email" id="mail"/><br><br> <!-- Atributo type = "email" para que se introduzca un email --> <!-- Atributo id="" para darle un nombre al input-->
+
+            <label for="Mensaje">Mensaje:</label>
+            <textarea id="Mensaje">OK Gracias</textarea><br><br> <!-- Etiqueta para hacer un área de texto para el input que puede expandirse si lo desea el usuario. Se le puede poner un mensaje por defecto -->
+
+            <label for="ciudad">Ciudad</label><br>
+            <input type="radio" id="Ciudad" name="ciudad" checked/>Madrid<br> <!-- Atributo checked ya aparece seleccionado-->
+            <input type="radio" id="Ciudad" name="ciudad"/>Barcelona<br> <!-- Atributo "name" para que solo se pueda seleccionar una opción (tiene que tener el mismo valor que el id)-->
+            <input type="radio" id="Ciudad" name="ciudad"/>Sevilla<br><br>
+
+            <p>Selecciona el municipio</p>
+            <input type="radio" name="municipio" id="vc" value="Madrid"/>Madrid<br>
+            <input type="radio" name="municipio" id="vc" value="Barcelona"/>Barcelona<br>
+            <input type="radio" name="municipio" id="vc" value="Sevilla"/>Sevilla<br><br>
+
+            <p>Extras:</p>
+            <input type="checkbox" id="50"/>50 euros<br> <!-- Atributo type = "checkbox" para tener una casilla -->
+            <input type="checkbox" id="100"/>100 euros<br>  
+            <input type="checkbox" id="150"/>150 euros<br><br>
+
+            <p>Selecciona la ciudad con select</p>
+            <select name="" id=""> <!-- Etiqueta para crear un deplegable -->
+                <option value="Madrid">Madrid</option>
+                <option value="Barcelona">Barcelona</option>
+                <option value="Sevilla">Sevilla</option>
+            </select><br>
+
+            <label for="">Selecciona un color</label><br>
+            <input type="color"/><br><br> <!-- Atributo type = "color" para seleccionar un color -->
+
+            <label for="">Pon tu cumpleaños</label><br>
+            <input type="date" id="cumpleanios"/><br><br> <!-- Atributo type = "date" para seleccionar una fecha-->
+
+            <label for="">Fecha antes del 1980-01-01</label><br>
+            <input type="date" id="data1" max="1979-12-31"/><br><br> <!-- Atributo max para seleccionar una fecha máxima que se pueda poner -->
+
+            <label for="">Fecha después del 2000-01-01</label><br>
+            <input type="date" id="data2" min="2000-01-02"/><br><br> <!-- Atributo min para seleccionar una fecha mínima que se pueda poner -->
+
+            <label for="">¿Cuándo te registraste? (fecha y hora)</label><br>
+            <input type="datetime-local" name="" id=""/><br> <!-- Atributo type = "datetime-local" para poner una fecha y hora específicas -->
+
+            <label for="">Selecciona un fichero</label><br>
+            <input type="file"/><br> <!-- Atributo type = "file" para poder seleccionar un archivo -->
+            
+            <label for="">Slider:</label><br>
+            <input type="range"/><br> <!-- Atributo type = "range" para crear un slider -->
+        
+            <button type="submit">Enviar</button> <!-- Etiqueta que sirve como un botón (Suele ser para enviar el formulario) que puede ser de diferentes tipos --> <!-- Atributo para enviar los datos del formulario -->
+        </fieldset>
+    </form>  
+
+</body>
+</html>
