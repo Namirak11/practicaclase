@@ -1,11 +1,107 @@
 /*Colores
+    Fondo 1 rgb(1, 143, 179)
+    Fondo 2 rgb(125, 199, 218)
+    Fondo Punto rgb(140, 140, 140)
     Fondo Tarjeta rgb(15, 6, 111)
-    Fondo General rgb(1, 143,179)
     Fondo Fecha rgb(104, 104, 228)
     Fondo Visitante rgb(227, 227, 239)
-    
+    Borde tarjeta rgb(186, 212, 218)
+    Fondo Elipse rgb(131, 179, 190)
 */
-
 *{
+    margin: 0;
+    padding: 0;
+}
+body{
     background-color: rgb(1, 143,179);
+}
+
+
+.exterior{
+    z-index: 1;
+    background-color: rgb(125, 199, 218);
+    margin: 6% 37% 5px 37%;
+    padding: 8px 20px 20px 20px;
+    border-radius: 5px;
+}
+
+.elipse{
+    z-index: 1;
+    margin: 2px 40%;
+    padding: 6px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border: solid 1px;
+    border-radius: 3px;
+}
+.tarjeta{
+    z-index: 1;
+    background-color: rgb(15, 6, 111);
+    border: solid;
+    border-color: rgb(186, 212, 218);
+    border-radius: 5px;
+}
+
+.foto{
+    z-index: 1;
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    float: left;
+    background-image: url("img/foto.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 15px;
+    padding: 5%;
+    border-radius: 100%;
+}
+
+.nombre{
+    z-index: 1;
+    padding: 30px;
+    text-align: center;
+    color: white;
+    font-size: 1.7em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.valido{
+    z-index: 1;
+    text-align: center;
+    padding: 25% 25% 10% 25%;
+    color: white;
+    font-size: 2em;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.fecha{
+    z-index: 1;
+    padding: 5% 12%;
+    margin: 2px;
+    width: auto;
+    background-color: rgb(104, 104, 228);
+    color: white;
+    font-size: 1.1em;
+    float: left;
+    text-align: center;
+}
+
+.tarjeta h1{
+    z-index: 1;
+    margin-top: 60%;
+    margin-left: 3px;
+    margin-right: 3px;
+    padding: 10px 20px;   
+    background-color: rgb(227, 227, 239);
+    text-align: center;
+    color: rgb(15, 6, 111);
+    font-size: 2.5em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.final{
+    z-index: 1;
+    background-color: rgb(15, 6, 111);
+    padding: 15px;
+    border-radius: 5px;
 }
