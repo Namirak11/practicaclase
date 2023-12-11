@@ -18,31 +18,31 @@ body{
 
 
 .exterior{
-    z-index: 1;
+    
     background-color: rgb(125, 199, 218);
     margin: 6% 37% 5px 37%;
     padding: 8px 20px 20px 20px;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 .elipse{
-    z-index: 1;
+    
     margin: 2px 40%;
     padding: 6px;
     background-color: rgba(0, 0, 0, 0.2);
     border: solid 1px;
-    border-radius: 3px;
+    border-radius: 5px;
 }
 .tarjeta{
-    z-index: 1;
+    
     background-color: rgb(15, 6, 111);
     border: solid;
     border-color: rgb(186, 212, 218);
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 .foto{
-    z-index: 1;
+    
     height: 100px;
     width: 100px;
     background-color: white;
@@ -56,7 +56,7 @@ body{
 }
 
 .nombre{
-    z-index: 1;
+    
     padding: 30px;
     text-align: center;
     color: white;
@@ -65,7 +65,7 @@ body{
 }
 
 .valido{
-    z-index: 1;
+    
     text-align: center;
     padding: 25% 25% 10% 25%;
     color: white;
@@ -75,7 +75,7 @@ body{
 }
 
 .fecha{
-    z-index: 1;
+    
     padding: 5% 12%;
     margin: 2px;
     width: auto;
@@ -88,7 +88,7 @@ body{
 }
 
 .tarjeta h1{
-    z-index: 1;
+    
     margin-top: 60%;
     margin-left: 3px;
     margin-right: 3px;
@@ -101,7 +101,7 @@ body{
 }
 
 .final{
-    z-index: 1;
+    
     background-color: rgb(15, 6, 111);
     padding: 15px;
     border-radius: 5px;
