@@ -1,0 +1,23 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    background-color: rgb(255, 157, 178);
+}
+
+.rectangulo{
+    margin: 10em 38%;
+    padding: 15%;
+    border-radius: 10px;
+    background-color: white;
+    background-image: url(img/casa.jpg);
+    background-size: 33.33% 100%;
+    background-position: top;
+}
+
+.foto{
+    margin: 33%;
+    padding: 0;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+}
