@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.imagen img{
+    width: 100%;
+}
+
+.imagen{
+    width: 30%;
+}
+.logonuevo{
+    display: none;
+}
+
+
+
+/*.div1{
+    background-color: lightskyblue;
+    padding-bottom: 20%;
+    width: 50%;
+    float: left;
+}
+
+.div2{
+    background-color: lightgreen;
+    padding-bottom: 20%;
+    width: 50%;
+    float: left;
+}*/
+
+@media only screen and (max-width:600px){
+    /*body{
+        background-color: lightblue;
+    }
+    p{
+        font-size: 7vw;
+        text-align: center;
+    }*/
+
+    /*.div1{
+        float: none;
+        width: 100%;
+    }
+    .div2{
+        float: none;
+        width: 100%;
+    }*/
+
+    .imagen{
+        display: none;
+    }
+    .logonuevo{
+        display: block;
+    }
+  
+}
+
+/*@media only screen and (min-width:1200px){
+    body{
+        background-color: lightcoral;
+    }
+}*/
